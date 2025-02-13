@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="sign_up">Sign up</string>
+    <string name="name">Name</string>
+    <string name="or_sign_up_with_social_account">Or sign up with social account</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="back">back</string>
+    <string name="facebook">Facebook</string>
+    <string name="google">Google</string>
 </resources>
