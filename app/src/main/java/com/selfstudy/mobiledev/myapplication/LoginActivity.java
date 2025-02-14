@@ -10,23 +10,20 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class MainActivity extends AppCompatActivity {
+public class LoginActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_main);
-
+        setContentView(R.layout.activity_login);
 
     }
 
-    public void switchToLogin(View view) {
-        Intent intentLogin = new Intent(this, LoginActivity.class);
-        startActivity(intentLogin);
-    }
+    public void switchToSignup(View view) {
+//        Intent intentSignup = new Intent(this, MainActivity.class);
+//        startActivity(intentSignup);
 
-    public void quitApp(View view) {
         finish();
     }
 }

@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     style="@style/screenStart"
     android:background="@color/primaryGray"
-    tools:context=".MainActivity">
+    tools:context=".LoginActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -16,7 +16,7 @@
         >
 
         <ImageView
-            android:onClick="quitApp"
+            android:onClick="switchToSignup"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:contentDescription="@string/back"
@@ -28,54 +28,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/primaryDarkGray"
-            android:text="@string/sign_up"
+            android:text="@string/login"
             android:textStyle="bold"
             android:textSize="34sp"
             android:layout_marginBottom="80dp"
             />
 
-
-        <androidx.cardview.widget.CardView
-            android:layout_width="370dp"
-            android:layout_height="wrap_content"
-            android:backgroundTint="@color/white"
-            app:cardCornerRadius="5dp"
-            android:layout_gravity="center"
-            android:layout_marginBottom="10dp"
-            >
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:paddingLeft="20dp"
-                android:paddingRight="20dp"
-                android:paddingTop="10dp"
-                android:paddingBottom="15dp"
-                >
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/textGray"
-                    android:text="@string/name"
-                    android:textSize="11sp"
-                    android:layout_marginBottom="5dp"
-                    />
-
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:autofillHints="name"
-                    android:background="@android:color/transparent"
-                    android:hint="@string/name"
-                    android:inputType="text"
-                    android:textColor="@color/textDarkGray"
-                    android:textSize="14sp"
-                    />
-
-            </LinearLayout>
-        </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
             android:layout_width="370dp"
@@ -163,16 +121,13 @@
 
 
         <TextView
-            android:onClick="switchToLogin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/primaryDarkGray"
-            android:text="@string/already_have_an_account"
+            android:text="@string/forgot_your_password"
             android:textSize="14sp"
             android:layout_marginBottom="30dp"
             android:layout_gravity="end"
-            app:drawableEndCompat="@drawable/baseline_arrow_right_alt_24"
-            app:drawableTint="@color/primaryRed"
             />
 
         <androidx.cardview.widget.CardView
@@ -188,7 +143,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
-                android:text="@string/sign_up"
+                android:text="@string/login"
                 android:textColor="@color/white"
                 android:textSize="14sp"
                 />
@@ -200,7 +155,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/primaryDarkGray"
-            android:text="@string/or_sign_up_with_social_account"
+            android:text="@string/or_login_with_social_account"
             android:textSize="14sp"
             android:layout_marginBottom="5dp"
             android:layout_gravity="center"
@@ -259,4 +214,5 @@
         </LinearLayout>
 
     </LinearLayout>
+
 </ScrollView>
