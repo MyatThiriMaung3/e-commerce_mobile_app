@@ -16,7 +16,7 @@
         >
 
         <ImageView
-            android:onClick="switchToSignup"
+            android:onClick="finishCurrentActivity"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:contentDescription="@string/back"
@@ -121,6 +121,7 @@
 
 
         <TextView
+            android:onClick="switchToForgotPassword"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/primaryDarkGray"
@@ -128,6 +129,8 @@
             android:textSize="14sp"
             android:layout_marginBottom="30dp"
             android:layout_gravity="end"
+            app:drawableEndCompat="@drawable/baseline_arrow_right_alt_24"
+            app:drawableTint="@color/primaryRed"
             />
 
         <androidx.cardview.widget.CardView
