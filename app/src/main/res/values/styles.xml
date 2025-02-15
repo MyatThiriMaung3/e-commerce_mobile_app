@@ -6,4 +6,11 @@
         <item name="android:paddingTop">50dp</item>
         <item name="android:paddingBottom">50dp</item>
     </style>
+
+    <style name="fragmentStart">
+        <item name="android:paddingLeft">18dp</item>
+        <item name="android:paddingRight">18dp</item>
+        <item name="android:paddingTop">50dp</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
 </resources>

@@ -16,4 +16,9 @@
     <string name="forgot_password">Forgot password</string>
     <string name="please_enter_your_email_address_you_will_receive_a_link_to_create_a_new_password_via_email">Please, enter your email address. You will receive a link to create a new password via email.</string>
     <string name="not_a_valid_email_address_should_be_your_email_com">Not a valid email address. Should be your@email.com</string>
+    <string name="favorites">Favorites</string>
+    <string name="bag">Bag</string>
+    <string name="shop">Shop</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
 </resources>

@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     style="@style/screenStart"
     android:background="@color/primaryGray"
-    tools:context=".MainActivity">
+    tools:context=".SignupActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -20,7 +20,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:contentDescription="@string/back"
-            android:src="@drawable/baseline_arrow_back_ios_new_24"
+            android:src="@drawable/ic_arrow_back"
             android:layout_marginBottom="30dp"
             />
 
@@ -57,7 +57,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/textGray"
+                    android:textColor="@color/primaryMediumGray"
                     android:text="@string/name"
                     android:textSize="11sp"
                     android:layout_marginBottom="5dp"
@@ -99,7 +99,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/textGray"
+                    android:textColor="@color/primaryMediumGray"
                     android:text="@string/email"
                     android:textSize="11sp"
                     android:layout_marginBottom="5dp"
@@ -141,7 +141,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/textGray"
+                    android:textColor="@color/primaryMediumGray"
                     android:text="@string/password"
                     android:textSize="11sp"
                     android:layout_marginBottom="5dp"
@@ -171,7 +171,7 @@
             android:textSize="14sp"
             android:layout_marginBottom="30dp"
             android:layout_gravity="end"
-            app:drawableEndCompat="@drawable/baseline_arrow_right_alt_24"
+            app:drawableEndCompat="@drawable/ic_arrow_continue"
             app:drawableTint="@color/primaryRed"
             />
 
@@ -227,7 +227,7 @@
                     android:layout_width="90dp"
                     android:layout_height="70dp"
                     android:contentDescription="@string/google"
-                    android:src="@drawable/icon_google"
+                    android:src="@drawable/ic_google"
                     android:paddingTop="20dp"
                     android:paddingBottom="20dp"
                     android:paddingStart="30dp"
@@ -247,7 +247,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:contentDescription="@string/facebook"
-                    android:src="@drawable/icon_facebook"
+                    android:src="@drawable/ic_facebook"
                     android:paddingTop="20dp"
                     android:paddingBottom="20dp"
                     android:paddingStart="30dp"
