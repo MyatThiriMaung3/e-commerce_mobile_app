@@ -43,8 +43,8 @@ public class HomeActivity extends AppCompatActivity {
                 replaceFragment(new ProfileFragment());
             }
 
-//            switch (item.getItemId()) {
-//                case R.id.nav_home:
+//            switch (item.getTitle().toString()) {
+//                case getString(R.string.home):
 //                    replaceFragment(new HomeFragment());
 //                    break;
 //

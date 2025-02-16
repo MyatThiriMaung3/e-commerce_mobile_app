@@ -4,8 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/primaryGray"
-    style="@style/screenStart"
+    android:orientation="vertical"
     tools:context=".HomeFragment">
 
     <androidx.cardview.widget.CardView
@@ -13,9 +12,7 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@color/primaryRed"
         app:cardCornerRadius="20dp"
-        android:layout_gravity="center"
-        android:layout_marginBottom="120dp"
-        >
+        android:layout_gravity="center">
 
         <Button
             android:layout_width="match_parent"
