@@ -28,4 +28,12 @@
     <string name="sale">Sale</string>
     <string name="your_have_never_seen_it_before">Your have never seen it before!</string>
     <string name="new1">New</string>
+    <string name="brand_name">Brand Name</string>
+    <string name="product_name">Product Name</string>
+    <string name="_10">(10)</string>
+    <string name="dollar_15">15$</string>
+    <string name="dollar_12">12$</string>
+    <string name="image_of_product">Image Of Product</string>
+    <string name="add_to_favourite">Add To Favourite</string>
+    <string name="_new">NEW</string>
 </resources>
