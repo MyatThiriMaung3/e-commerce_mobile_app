@@ -36,4 +36,21 @@
     <string name="image_of_product">Image Of Product</string>
     <string name="add_to_favourite">Add To Favourite</string>
     <string name="_new">NEW</string>
+    <string name="customer_name">Customer Name</string>
+    <string name="august_13_2019">August 13, 2019</string>
+    <string name="i_loved_this_dress_so_much_as_soon_as_i_tried_it_on_i_knew_i_had_to_buy_it_in_another_color_i_am_5_3_about_155lbs_and_i_carry_all_my_weight_in_my_upper_body_when_i_put_it_on_i_felt_like_it_thinned_me_put_and_i_got_so_many_compliments">I loved this dress so much as soon as I tried it on I knew I had to buy it in another color. I am 5\'3 about 155lbs and I carry all my weight in my upper body. When I put it on I felt like it thinned me put and I got so many compliments.</string>
+    <string name="review_image">Review Image</string>
+    <string name="order_no">Order No.</string>
+    <string name="_05_12_2019">05-12-2019</string>
+    <string name="tracking_number">Tracking number:</string>
+    <string name="delivered">Delivered</string>
+    <string name="details">Details</string>
+    <string name="example_tracking_number">IW3475453455</string>
+    <string name="example_order_number">1234567</string>
+    <string name="quantity">Quantity:</string>
+    <string name="example_quantity_number">3</string>
+    <string name="example_total_amount">112$</string>
+    <string name="total_amount">Total Amount:</string>
+    <string name="helpful">Helpful</string>
+    <string name="is_review_helpful">Is review helpful?</string>
 </resources>
