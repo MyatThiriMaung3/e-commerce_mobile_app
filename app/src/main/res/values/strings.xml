@@ -53,4 +53,13 @@
     <string name="total_amount">Total Amount:</string>
     <string name="helpful">Helpful</string>
     <string name="is_review_helpful">Is review helpful?</string>
+    <string name="clickable_image_to_view_new_collection">Clickable Image To View New Collection</string>
+    <string name="clickable_image_to_view_men_s_hoodies">Clickable Image To View Men\'s Hoodies</string>
+    <string name="clickable_image_to_view_black_products">Clickable Image To View Black Products</string>
+    <string name="clickable_image_to_view_summer_sale">Clickable Image To View Summer Sale</string>
+    <string name="new_collection">New Collection</string>
+    <string name="summer_sale">Summer\nSale</string>
+    <string name="black">Black</string>
+    <string name="men_s_hoodies">Men\'s Hoodies</string>
+    <string name="image_of_fashion_sale">Image Of Fashion Sale</string>
 </resources>
