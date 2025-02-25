@@ -62,4 +62,8 @@
     <string name="black">Black</string>
     <string name="men_s_hoodies">Men\'s Hoodies</string>
     <string name="image_of_fashion_sale">Image Of Fashion Sale</string>
+    <string name="example_name">John Doe</string>
+    <string name="Edit">Edit</string>
+    <string name="_3_newbridge_court_chino_hills_ca_91709_united_states">3 Newbridge Court, Chino Hills, CA 91709, United States</string>
+    <string name="use_as_the_shipping_address">Use as the shipping address</string>
 </resources>
