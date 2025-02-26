@@ -73,4 +73,8 @@
     <string name="percent_sign">%</string>
     <string name="off">off</string>
     <string name="number_10">10</string>
+    <string name="image_of_bags_for_the_celebration_of_order_success">Image of bags for the celebration of order success</string>
+    <string name="success">Success!</string>
+    <string name="your_order_will_be_delivered_soon_thank_you_for_choosing_our_app">Your order will be delivered soon.\nThank you for choosing our app!</string>
+    <string name="continue_shopping">Continue Shopping</string>
 </resources>
