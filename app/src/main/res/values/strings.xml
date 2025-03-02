@@ -78,4 +78,13 @@
     <string name="your_order_will_be_delivered_soon_thank_you_for_choosing_our_app">Your order will be delivered soon.\nThank you for choosing our app!</string>
     <string name="continue_shopping">Continue Shopping</string>
     <string name="finding_similar_results">Finding similar results...</string>
+    <string name="_color">Color:</string>
+    <string name="sample_color">Gray</string>
+    <string name="sample_product_size">L</string>
+    <string name="size">Size</string>
+    <string name="reduce_product_quantity_by_1">Reduce product quantity by 1.</string>
+    <string name="increase_product_quantity_by_1">Increase product quantity by 1</string>
+    <string name="click_for_more_info_about_product">Click for more info about product</string>
+    <string name="add_product_to_cart">Add product to cart</string>
+    <string name="remove_product_from_favorites">Remove product from favorites</string>
 </resources>
